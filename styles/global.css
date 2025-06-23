@@ -27,6 +27,24 @@
   --heading1: 700 2rem/125% var(--poppins);
   --paragraph-md: 400 .875rem/170% var(--poppins);
   --paragraph-sm: 400 .75rem/170% var(--poppins);
+}
 
+body {
+  margin-inline: 1rem;
+}
 
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

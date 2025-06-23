@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.desktop-only {
+  display: none;
+
+  @media (width >= 80em) {
+    display: flex;
+  }
+}

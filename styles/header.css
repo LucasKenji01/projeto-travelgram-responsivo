@@ -1,0 +1,35 @@
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  
+  @media (width >= 80em) {
+    padding-block: 1.5rem;
+  }
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & button:hover {
+    & svg path {
+      fill: #EF5F4C;
+    }
+  }
+}
+
+.list {
+  gap: 1rem;
+
+  & li a {
+    font: 400 1rem/150% var(--poppins);
+  }
+
+  & li a:hover {
+    color: #EF5F4C;
+    text-decoration: underline;
+  }
+}
