@@ -1,0 +1,15 @@
+footer {
+  flex-direction: column;
+  align-items: center;
+  padding-block: 1rem;
+  font: var(--paragraph-md);
+  color: var(--text-color-secondary);
+  
+  @media (width >= 80em) {
+    width: 76rem;
+    margin-inline: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+  }
+}
