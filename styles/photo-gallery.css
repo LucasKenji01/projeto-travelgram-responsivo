@@ -1,0 +1,19 @@
+#photo-gallery {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 1.5rem;
+  margin-inline: 1rem;
+  
+  & img {
+    width: 17.875rem;
+    height: 17.875rem;
+  }
+  
+  @media (width >= 80em) {
+    width: 76rem;
+    margin-inline: auto;
+    gap: 1.5rem;
+  }
+}
+

@@ -29,10 +29,6 @@
   --paragraph-sm: 400 .75rem/170% var(--poppins);
 }
 
-body {
-  margin-inline: 1rem;
-}
-
 button {
   appearance: none;
   border: none;
@@ -47,4 +43,8 @@ ul[role="list"] {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
