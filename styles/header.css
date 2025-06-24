@@ -5,6 +5,8 @@ header {
   
   @media (width >= 80em) {
     padding-block: 1.5rem;
+    width: 76rem;
+    margin-inline: auto;
   }
 
 }

@@ -10,6 +10,14 @@
   gap: 1rem;
 }
 
+.gap-2 {
+  gap: 2rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .desktop-only {
   display: none;
 
